@@ -2,20 +2,21 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-/* sovrascrive vecchio colore */
+a{
+    text-decoration: none;
+}
+
+/* header */
 .header-top{
     background-color: white;
 }
-/* sovrascrive vecchio colore */
-
 #header-logo{
     height:100%;
 }
 
-.navbar{
-    font-variant: all-small-caps;
-}
-.navbar > a{
+.navbar-link{
     color: #bcbcbc;
-    padding-right: 10px;
+    font-variant: all-small-caps;
+    margin-right: 10px;
 }
+/* header */

@@ -12,13 +12,6 @@ main{
     background-color: #0086ff;
 }
 
-a{
-    font-size: 2em;
-    font-weight: bold;
-    text-decoration: none;
-    color:black;
-}
-
 /* dimensioni */
 body.width{
     width:80%;
