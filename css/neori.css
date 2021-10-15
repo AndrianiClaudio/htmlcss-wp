@@ -19,4 +19,11 @@ a{
     font-variant: all-small-caps;
     margin-right: 10px;
 }
+
+.header-jumbotron{
+    background-image: url("../img/banner.jpg");
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /* header */
