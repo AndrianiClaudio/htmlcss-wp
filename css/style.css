@@ -24,7 +24,7 @@ body.width{
     width:80%;
 }
 
-header > .margin-btm,
+.header > .margin-btm,
 main > .margin-btm{
     margin-bottom: 15px;
 }
