@@ -8,11 +8,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-main{
-    background-color: #0086ff;
-}
-
-
 a{
     text-decoration: none;
 }
@@ -93,20 +88,30 @@ main > .margin-btm{
     clear: both;
 }
 
-.main-header,.container-block{
+.container-block{
     background-color: #abcfe7;
 }
 
 .main-header{
-    /*  */
-    height: 40px;
-    /*  */
+    background-color: white;
+    height: 70px;
+    padding-bottom: 30px;
 }
 main.margin-btm{
     margin-bottom: 5px;
 }
+
 .main-container{
     padding-bottom: 15px;
+}
+
+.main-title{
+    font-size: 2.2em;
+}
+.main-subtitle{
+    color:darkgrey;
+    font-size: 1em;
+    font-weight: normal;
 }
 
 /* dimensioni colonne */
@@ -122,7 +127,7 @@ main.margin-btm{
 /* /dimensioni colonna */
 
 .container-block{
-    height: 450px;
+    height: 230px;
     float: left;
 }
 .container-block:last-child{
