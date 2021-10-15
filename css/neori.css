@@ -23,13 +23,14 @@ a{
 
 .header-jumbotron{
     background-image: url("../img/banner.jpg");
+    background-color: #cbbcb6;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
 .jumbutron-container-txt{
-    margin: 15px;
+    margin: 0 15px 10px;
+    padding-top: 120px;
     width: 60%;
     color:white;
 }
