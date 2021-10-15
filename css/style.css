@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 main{
     background-color: #0086ff;
+}
+
+
+a{
+    text-decoration: none;
 }
 
 /* dimensioni */
@@ -15,7 +24,7 @@ body.width{
 
 .header > .margin-btm,
 main > .margin-btm{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 /* /dimensioni */
 
@@ -24,9 +33,36 @@ main > .margin-btm{
     /* background-color: #e579e6; */
     height: 70px;
 }
+
+#header-logo{
+    height:100%;
+}
+
+.navbar-link{
+    color: #b2b2b2;
+    font-variant: all-small-caps;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
 .header-jumbotron{
-    /* background-color: #e1d67a; */
     height: 230px;
+    background-image: url("../img/banner.jpg");
+    background-color: #cbbcb6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.jumbutron-container-txt{
+    margin: auto 15px 10px;
+    padding-top: 138px;
+    width: 60%;
+    color:white;
+}
+
+.jumbutron-title{
+    font-size: 1em;
+    font-weight: normal;
 }
 /* /header */
 
