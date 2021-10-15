@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* sovrascrive vecchio colore */
 .header-top{
     background-color: white;
@@ -6,4 +10,12 @@
 
 #header-logo{
     height:100%;
+}
+
+.navbar{
+    font-variant: all-small-caps;
+}
+.navbar > a{
+    color: #bcbcbc;
+    padding-right: 10px;
 }
