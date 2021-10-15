@@ -18,12 +18,13 @@ a{
     color: #bcbcbc;
     font-variant: all-small-caps;
     margin-right: 10px;
+    font-size: 0.8em;
 }
 
 .header-jumbotron{
     background-image: url("../img/banner.jpg");
-    background-size: 10px;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 }
 /* header */

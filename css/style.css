@@ -5,7 +5,7 @@
 }
 
 body{
-    margin-top: 12px;
+    /* margin-top: 12px; */
 }
 
 main{
@@ -54,13 +54,13 @@ main.margin-btm{
 .header-top{
     background-color: #e579e6;
     /*  */
-    height: 55px;
+    height: 35px;
     /*  */
 }
 .header-jumbotron{
     background-color: #e1d67a;
     /*  */
-    height: 275px;
+    height: 230px;
     /*  */
 }
 /* /header */
