@@ -19,10 +19,8 @@ a{
 
 /* dimensioni */
 body.width{
-    width:80%;
+    width: 80%;
 }
-
-.header > .margin-btm,
 main > .margin-btm{
     margin-bottom: 30px;
 }
@@ -34,36 +32,58 @@ main > .margin-btm{
     height: 70px;
 }
 
+.header > .margin-btm{
+    margin-bottom: 35px;
+}
+
 #header-logo{
     height:100%;
 }
 
+/* navbar */
 .navbar-link{
-    color: #b2b2b2;
-    font-variant: all-small-caps;
+    text-transform: uppercase;
+    color: darkgrey;
     margin-right: 10px;
-    font-size: 1.5em;
 }
+/* navbar */
 
+/* jumbotron */
 .header-jumbotron{
-    height: 230px;
+    height: 500px;
     background-image: url("../img/banner.jpg");
+    ;
     background-color: #cbbcb6;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-.jumbutron-container-txt{
-    margin: auto 15px 10px;
-    padding-top: 138px;
-    width: 60%;
+    background-blend-mode: multiply;
     color:white;
+    border-radius: 10px;
+    /* margin: auto 25px 15px; */
+    /* padding: 315px 0 0; */
+}
+
+.header-jumbotron .container
+{
+    position: relative;
+    top: 330px;
+    margin-left: 55px;
+    width: 50%;
+    overflow: hidden;
 }
 
 .jumbutron-title{
-    font-size: 1em;
+    font-size: 1.75em;
     font-weight: normal;
+    padding-bottom: 5px;
 }
+
+.jumbutron-p{
+    max-block-size: 40px;
+    text-overflow: ellipsis ;
+}
+/* /jumbotron */
 /* /header */
 
 /* main */
