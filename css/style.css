@@ -70,7 +70,7 @@ a{
     border-radius: 10px;
 }
 .jumbotron-container{
-    /* width: 55%; */
+    width: 55%;
     float: left;
     padding-bottom: 25px;
 }
